@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(245, 245, 220);
+    text-align: right;
+    padding: 30px;
+}
+a{
+    color: black;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+body{
+    background: rgb(195, 140, 210);
+}
+caption{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 100%;
+}
+th{
+    text-align: left;
+    padding: 15px;
+}
+td{
+    text-align: center;
+    padding: 15px;
+}
