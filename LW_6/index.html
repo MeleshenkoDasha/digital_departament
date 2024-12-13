@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторнвя работа 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="navbar-section">
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Фильмы</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-2 sidebar-container">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#section1">Фото</a>
+                    <a class="list-group-item list-group-item-action" href="#section2">Популярные фильмы</a>
+                    <a class="list-group-item list-group-item-action" href="#section3">Краткая биография</a>
+                </div>
+            </div>
+            <div class="col-10">
+                <div data-bs-spy="scroll" data-bs-target="#list" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                    <section id="section1">
+                        <h2>Фото актера</h2>
+                        <div class="carousel-container">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="C:\Users\79608\OneDrive\Рабочий стол\6\scale_1200.png" class="d-block w-100" alt="asd1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="C:\Users\79608\OneDrive\Рабочий стол\6\imgpreview.jpg" class="d-block w-100" alt="asd2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="C:\Users\79608\OneDrive\Рабочий стол\6\poet7.jpg" class="d-block w-100" alt="asd3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section id="section2">
+                        <h2>Популярные фильмы</h2>
+                        <div class="card-container">
+                            <div class="card">
+                                <img src="C:\Users\79608\OneDrive\Рабочий стол\6\174955.png" alt="1421591" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Подполковник Сошников и капитан Муравьев — два разных характера, две разные судьбы, которым суждено будет сойтись на военной базе Хмеймим. Во время боевого вылета самолет Сошникова был сбит турецким истребителем. Это событие освещали все мировые СМИ, а за ходом спасательной операции следила вся Россия.</p>
+                                    <a href="https://www.kinopoisk.ru/film/1421591/?utm_referrer=yandex.ru" class="btn btn-primary">Кинопоиск</a>
+                                </div>
+                            </div>
+                            <div class="card" >
+                                <img src="C:\Users\79608\OneDrive\Рабочий стол\6\1000.jpg" alt="1000" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Народный комиссар Николай Кузнецов никогда не думал, что сыграет значительную роль в истории родной страны. Он с юношества работал на речных судах, однако в 1930-х отправился в Испанию, где приобрел бесценный опыт командования военным флотом, который пригодился ему во время Великой Отечественной войны. Кузнецов внес существенный вклад в развитие советского ВМФ, а также сыграл огромную роль в победе, доставшейся дорогой ценой. Жизнь адмирала не была простой: он имел сложные отношения с советской властью, пережил серьезные болезни, но его героизм и мастерство останутся в сердцах потомков на века.</p>
+                                    <a href="https://okko.tv/serial/admiral-kuznecov" class="btn btn-primary">Okko</a>
+                                </div>
+                            </div>
+                            <div class="card" >
+                                <img src="C:\Users\79608\OneDrive\Рабочий стол\6\67180.jpg" alt="67180" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Триллер Юрия Быкова, в котором Игорь Петренко в роли полковника ФСБ пытается предотвратить переворот, подготовленный иностранными спецслужбами. 
+                                        2013 год. Андрей Родионов, вернувшись из Ливии, немедленно приступает к расследованию ряда странных происшествий. После того, как Россия заключает многомиллионный газовый контракт с Китаем, высокопоставленный чиновник совершает самоубийство, а ФСБ получает информацию о предстоящей серии терактов на территории страны. Родионов приходит к выводу, что все это является частью плана ЦРУ, направленного на вербовку «спящих» агентов, готовых по приказу Америки дестабилизировать политическую обстановку в России. </p>
+                                    <a href="https://wink.ru/series/spyashchie-year-2017" class="btn btn-primary">Wink</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="section3">
+                        <h2>Краткая биография Игоря Петренко</h2>
+                        <a class="btn btn-primary br-btn" data-bs-toggle="collapse" data-bs-target="#brief">Краткая биография</a>
+                        <div id="brief" class="collapse">
+                            Игорь Петрович Петренко — российский актер театра и кино, родился 26 ноября 1977 года в городе Кострома. Он окончил Костромское художественное училище, а затем поступил в Школу-студию МХАТ, где обучался актерскому мастерству.
+                            Петренко стал известен благодаря своим ролям в российских фильмах и телесериалах. Его карьера включает разнообразные работы, как в драматических, так и в комедийных проектах. Он также активно участвует в театральных постановках.
+                            Актер получил признание за свои роли в таких фильмах, как «Бой с тенью», «Старшая сестра» и многих других. Игорь Петренко также известен своей работой на телевидении, где снимался в популярных сериалах.
+                            Помимо актерской карьеры, он проявляет интерес к музыке и другим видам искусства. Игорь Петренко продолжает активно работать в кино и театре, оставаясь одной из заметных фигур российской культуры.
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
